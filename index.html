@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADA Lab Programs</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>.right{float:right; margin:-130px; padding-right: 100px; padding-top: 350;}</style>
+    <style>.left{float:left; margin:-130px; padding-left: 100px; padding-top: 350;}</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="college-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwVufwpl8jpAUUkoKHDZPoINL16X3wpac0A&s" alt="kssem.png" class="college-logo">
+                </div>
+                <div class="college-name">
+                    <h1>K. S. SCHOOL OF ENGINEERING AND MANAGEMENT</h1>
+                    <div class="site-title">Department of Computer Science and Business Systems</div>
+                </div>
+               
+            </div>
+    
+            <h1><b>ADA Lab Programs</b></h1>
+            <!--<p>Explore and learn algorithms with modern, interactive implementations and detailed explanations.</p>
+           <img src="C:\Users\Nitu\OneDrive\Desktop\Website\sample\vtu.jpg" class = "right" width="250" height="150">
+        </img>-->
+    
+        </div>
+        
+    </header>
+    
+    <main class="container">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search algorithms by name or complexity..." id="search">
+        </div>
+        
+        <h2>Algorithm Collections</h2>
+        
+        <div class="algorithm-grid" id="algorithm-grid">
+            <!-- Sorting Algorithms -->
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Kruskal's Algorithm</h3>
+                    <span class="complexity">O(n log n)</span>
+                </div>
+                <p>It is used to find the minimum spanning tree (MST) of a weighted, connected graph by sorting edges in ascending order and adding them while avoiding cycles.</p>
+                <a href="#kruskal" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Prim's Algorithm</h3>
+                    <span class="complexity">O(E log V)</span>
+                </div>
+                <p>Finds a minimum spanning tree for a weighted undirected graph, adding the minimum weight edge that connects a new vertex.</p>
+                <a href="#prims" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Floyd's Algorithm</h3>
+                    <span class="complexity">O(V3)</span>
+                </div>
+                <p>Dynamic programming approach to find the shortest paths between all pairs of vertices in a weighted graph.</p>
+                <a href="#floyds" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+       
+       
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Warshal's Algorithm</h3>
+                    <span class="complexity">O(V<sup>3</sup>)</span>
+                </div>
+                <p>It is used to find the transitive closure of a directed graph, determining the reachability of vertices.</p>
+                <a href="#warshal" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Dijkstra's Algorithm</h3>
+                    <span class="complexity">O(V²)</span>
+                </div>
+                <p>Finds the shortest path from a source vertex to all other vertices in a weighted graph with non-negative weights.</p>
+                <a href="#dijkstra" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Toplogical Ordering</h3>
+                    <span class="complexity">O(V+E)</span>
+                </div>
+                <p>Topological ordering is a linear arrangement of a directed acyclic graph (DAG) where each node appears before its dependent nodes.</p>
+                <a href="#topological" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>0/1 Knapsack Problem</h3>
+                    <span class="complexity">O(nW)</span>
+                </div>
+                <p>A classic DP problem to find the most valuable subset of items that fit into a knapsack of fixed capacity.</p>
+                <a href="#knapsack" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Greedy Knapsack Problem</h3>
+                    <span class="complexity">O(nW)</span>
+                </div>
+                <p>The greedy knapsack algorithm selects items based on the highest value-to-weight ratio to maximize total value within a weight limit.
+                </p>
+                <a href="#greedy" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Finding subset of given set S</h3>
+                    <span class="complexity">O(2<sup>n</sup>)</span>
+                </div>
+                <p>Finding a subset of a given set S involves selecting any combination of elements, including the empty set and S itself.</p>
+                <a href="#subset" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Selection Sort</h3>
+                    <span class="complexity">O(n³)</span>
+                </div>
+                <p>Determines the most efficient way to multiply a given sequence of matrices to minimize the number of operations.</p>
+                <a href="#selection" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+           <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Quick Sort</h3>
+                    <span class="complexity">O(n log n)</span>
+                </div>
+                <p>A highly efficient sorting algorithm that uses a pivot element to partition the array and recursively sort the sub-arrays.</p>
+                <a href="#quick" class="btn view-algorithm">View Algorithm</a>
+            </div>
+
+
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>Merge Sort</h3>
+                    <span class="complexity">O(n log n)</span>
+                </div>
+                <p>A divide and conquer algorithm that divides the input array into two halves, recursively sorts them, and then merges the sorted halves.</p>
+                <a href="#merge" class="btn view-algorithm">View Algorithm</a>
+            </div>
+        
+            
+            
+            <div class="algorithm-card">
+                <div class="algorithm-header">
+                    <h3>N-Queens Problem</h3>
+                    <span class="complexity">O(n!)</span>
+                </div>
+                <p>Places N queens on an N x N chessboard so that no two queens threaten each other.</p>
+                <a href="#n-queens" class="btn view-algorithm">View Algorithm</a>
+            </div>
+            
+        </div>
+
+        
+    <div id="algorithm-detail" style="display: block;">
+            <!-- subset-->
+        <div id="subset" class="algorithm-detail-page">
+            <h2>Finding subset of given set</h2>
+            <div class="tabs">
+                <button class="tab active" data-tab="description">Description</button>
+                <button class="tab" data-tab="implementation">Implementation</button>
+                <button class="tab" data-tab="output">Output</button>
+            </div>
+                
+            <div class="tab-content active" id="description">
+                <p>A subset is a set whose elements are all members of another set. In other words, a subset is a part of a given set. If A and B are two sets, we say A is a subset of B if every element of A is also an element of B.
+                </p>             
+            </div>
+                
+            <div class="tab-content" id="implementation">
+                <h3>C Implementation</h3>
+
+                <pre id="subset" class="code-container-hidden">
+#include < stdio.h >
+
+void subset(int n, int d, int s[]);
+
+int count = 0;
+
+int main()
+{
+int n;     	//No. of elements in set
+int d;       	//Required subset sum
+int s[10];   	//Array: Elements in the set
+int i;       	//index variable
+int sum = 0;
+
+//1. Read no. of elements in set	
+printf("Enter the value of n ");
+scanf("%d",&n);
+
+//2. Read the elements in the set
+printf("Enter the set in increasing order\n");
+for(i=1;i<=n;i++)
+{
+     scanf("%d",&s[i]);
+    sum += s[i]; 
+}	
+
+//3. Read required subset sum
+printf("Enter the maximum subset value of d: ");
+scanf("%d",&d);
+printf("\nd = %d\n",d);
+printf("\nSum = %d\n",sum);
+
+//4. Call function
+if(sum < d)
+    printf("Solution NOT possible.\n");
+else
+{
+    subset(n, d, s);
+    
+    if(count == 0)
+       printf("No solutions possible.");
+}
+
+return 0;
+}
+
+//Function to find subsets
+void subset(int n, int d, int s[])
+{
+int x[10];           //Shows elements in subset (0 - Absent 1 - Present)
+int sum;             //Stores current sumset sum
+int i, k;            //index variables
+
+//Initialise x[] to 0. (None of the elements in set are selected)
+for(i = 1; i <= n; i++)
+    x[i] = 0;
+
+sum = 0;
+k = 1;                      //Take first element
+x[k] = 1;                   //Add first element to subset
+
+while(1)
+{
+    if(k <= n && x[k] == 1)  //k in range(1 to n) & kth element selected
+    {
+           //If required subset sum found then print solution
+        if(sum+s[k] == d)   
+        {
+            count++;
+                        
+            printf("Solution is \n");
+            for(i = 1; i <= n; i++)
+            {
+                if(x[i] == 1)
+                    printf("%5d", s[i]);
+            }
+    
+            printf("\n");
+            x[k] = 0;         //Proceed to find next solution    
+        }
+        else if(sum + s[k] < d)  //If subset sum is < required sum,
+            sum += s[k];      //then add the current element to 
+                        //subset
+        else
+            x[k] = 0;         //If subset sum is morethan required 
+                              //sum, then remove the current element
+    }
+    else
+    {
+        k--;                      //Bring k within range
+        while(k > 0 && x[k] == 0) //Find recently added element to 
+            k--;			     //subset and remove it
+    
+
+        if(k == 0) break;        //No more solutions exists, so quit
+        
+        x[k] = 0;                //Remove recently added element 
+
+        sum = sum - s[k];        
+    }
+    
+    k = k + 1;                   //Take next element
+    x[k] = 1;                    //Add next element to subset
+}  //end while
+}  //end function
+                </pre>
+            </div>
+
+            <div class="tab-content" id="output">
+                <h3>Output</h3>
+                <pre id="subset" class="code-container-hidden">
+Run1:
+Enter the value of n 5
+Enter the set in increasing order
+1
+2
+3
+4
+5
+Enter the maximum subset value of d: 7
+Solution is
+1    2    4
+Solution is
+2    5
+Solution is
+3    4
+
+Run2:
+Enter the value of n3
+Enter the set in increasing order
+4
+5
+6
+Enter the maximum subset value of d: 7
+No solutions possible.
+                 </pre>
+            </div>
+            <a href="#" class="btn back-btn">Back to Algorithm List</a>
+        </div>
+</div>
+
+
+        
+        <div id="algorithm-detail" style="display: block;">
+            <!-- dijkstra-->
+            <div id="dijkstra" class="algorithm-detail-page">
+                <h2>Dijkstra's Alogorithm</h2>
+                <div class="tabs">
+                    <button class="tab active" data-tab="description">Description</button>
+                    <button class="tab" data-tab="implementation">Implementation</button>
+                    <button class="tab" data-tab="output">Output</button>
+                </div>
+                
+                <div class="tab-content active" id="description">
+                    <p>Dijkstra's Algorithm works on both directed and undirected graphs with non-negative edge weights. It maintains a set of visited vertices and a set of unvisited vertices. The algorithm starts at the source vertex and iteratively selects the unvisited vertex with the smallest tentative distance from the source. It then visits the neighbors of this vertex and updates their tentative distances if a shorter path is found. This process continues until the destination vertex is reached, or all reachable vertices have been visited
+                    </p>             
+                </div>
+                
+                <div class="tab-content" id="implementation">
+                    <h3>C Implementation</h3>
+
+                    <pre id="dijkstra" class="code-container-hidden">
+#include < stdio.h >
+
+#define INFINITY 999
+
+void dijk(int cost[10][10], int n, int source, int v[10], int d[10]) ;
+
+int main()
+{
+int n; 		//no. of nodes
+int cost[10][10];	//Adjacency matrix of graph
+int source;		//source node
+int v[10];		//To keep track of nodes visited	
+int d[10];		//distance array. keeps latest shortest 
+                //distances from source node to all other nodes
+int i, j;		//index variables
+
+//1. Read no. of nodes
+printf("Enter n: ");
+scanf("%d", &n);
+
+//2. Read cost adjacency matrix of graph
+printf("\nEnter  Cost matrix: \n");
+for(i=1; i<=n; i++)
+    for(j=1; j<=n; j++)
+        scanf("%d", &cost[i][j]);
+
+//3. Read source
+printf("\nEnter Source: ");
+scanf("%d", &source);
+
+//4. Initialise d[] to distance from source to each node
+//Initialise v[] to 0, indicating none of the nodes are visited
+for(i=1; i<=n; i++) 
+{
+    d[i] = cost[source][i];
+    v[i] = 0;
+}
+
+//5. Call function to compute shortest distance
+dijk(cost, n, source, v, d);
+
+//6. Print Shortest distance from source to all other nodes
+printf("Shortest distance from source %d\n\n",source);
+for(i=1; i<=n; i++) 
+    printf("\n%d --> %d = %d \n", source, i, d[i]); 	
+
+return 0;
+}
+
+//Function to implement dijkstra algorithm
+void dijk(int cost[10][10], int n, int source, int v[10], int d[10])
+{
+int least, i, j, u;
+
+//A. Mark source node as visited	
+v[source] = 1;
+
+//B. From each node, find shortest distance to nodes not visited 
+for(i=1; i<=n; i++)
+{
+    //B1. Assume least as infinity
+    least = INFINITY;
+
+    //B2. Find u and d(u) such that d(u) is minimum 
+    //i.e., Find the next nearest node that is not yet visited
+    for(j=1; j<=n; j++)
+    {
+        if(v[j] == 0 && d[j] < least)
+        {	
+            least = d[j];
+            u     = j;
+        }
+    }
+    
+    //B3. Mark u as visited (mark nearest node as visited)
+    v[u] = 1;
+    
+    //B4. For remaining nodes, find shortest distance passing 
+    //through node u (update d array)
+    for(j=1; j<=n; j++)
+    {
+        if(v[j] == 0 && (d[j] > (d[u] + cost[u][j])) ) 
+            d[j] = d[u] + cost[u][j];
+    }
+} //end for outer
+} //end function
+
+                    </pre>
+                </div>
+
+                <div class="tab-content" id="output">
+                    <h3>Output</h3>
+                    <pre id="dijkstra" class="code-container-hidden">
+Run 1:
+Enter n: 5
+
+Enter  Cost matrix:
+0 3 999 7 999
+3 0 4 2 999
+999 4 0 5 6
+7 2 5 0 4
+999 999 6 4 0
+
+Enter Source: 1
+Shortest distance from source 1
+
+1 --> 1 = 0
+1 --> 2 = 3
+1 --> 3 = 7
+1 --> 4 = 5
+1 --> 5 = 9
+
+                    </pre>
+                </div>
+                <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                </div>
+</div>
+    
+            
+            <div id="algorithm-detail" style="display: block;">
+                <!-- topological-->
+                <div id="topological" class="algorithm-detail-page">
+                    <h2>Topological Ordering</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p>Topological Sorting is an ordering of vertices in a Directed Acyclic Graph (DAG) where each node appears before its dependents.
+Methods:
+Kahn's Algorithm (BFS): Process nodes with zero incoming edges first.
+DFS-Based: Visit nodes recursively and push them onto a stack</p>             
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+
+                        <pre id="topological" class="code-container-hidden">
+#include< stdio.h >
+
+int main()
+{
+	int n;			    //no. of nodes
+	int a[10][10];		//Adjacency matrix
+	int i, j, k;		//Index variables
+	int node;			//To store next node to visit
+	int in[10] = {0};	//Stores indegree of each node
+	int v[10] = {0};	//To keep track of nodes visited
+
+	//1. Enter n	
+	printf("Enter n: ");
+	scanf("%d", &n);
+
+	//2. Enter Adj matrix and find indegree
+	printf("Enter Adj matrix: \n");
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n; j++)
+		{
+			scanf("%d", &a[i][j]);   	
+
+			if(a[i][j] == 1)        //updating indegree
+				in[j]++;			
+		}
+	}
+
+	//3. Find topological order
+	printf("\nTopological order: ");
+	for(k=1; k<=n; k++) 
+	{
+        //3a. Find node with indegree zero and mark it as visited
+		for(i=1; i<=n; i++)	
+		{
+			if(in[i] == 0 && v[i] == 0)
+			{
+				node = i;
+				printf("%5d", node);			
+				v[node] = 1;
+				break;
+			}
+		}
+		
+        //3b. Update the indegree of other nodes		
+		for(i=1; i<=n; i++)
+			if(a[node][i] == 1)
+				in[i]--;	
+	}
+	printf("\n\n");
+} //end of program
+
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="topological" class="code-container-hidden">
+Run 1: 
+Enter n: 5
+Enter Adj matrix: 
+0 0 1 0 0
+0 0 1 0 0
+0 0 0 1 1
+0 0 0 0 1
+0 0 0 0 0
+
+Topological order:     1    2    3    4    5
+
+Run 2:
+Enter n: 4
+Enter Adj matrix: 
+0 1 0 0
+0 0 0 1
+1 1 0 1
+0 0 0 0 
+
+Topological order:     3    1    2    4
+
+Run 3:
+Enter n: 4
+Enter Adj matrix: 
+0 0 0 0
+1 0 0 1
+0 1 0 0
+0 0 0 0
+
+Topological order:     3    2    1    4
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+
+        
+        <div id="algorithm-detail" style="display: block;">
+            <!-- warshal-->
+            <div id="warshal" class="algorithm-detail-page">
+                <h2>Warshall Alogorithm</h2>
+                <div class="tabs">
+                    <button class="tab active" data-tab="description">Description</button>
+                    <button class="tab" data-tab="implementation">Implementation</button>
+                    <button class="tab" data-tab="output">Output</button>
+                </div>
+                
+                <div class="tab-content active" id="description">
+                    <p>Warshall's Algorithm is used to find the transitive closure of a directed graph. It determines whether a path exists between every pair of vertices by updating a reachability matrix.</p>             
+                </div>
+                
+                <div class="tab-content" id="implementation">
+                    <h3>C Implementation</h3>
+                    <pre id="warshal" class="code-container-hidden">
+#include < stdio.h >
+void warshall(int a[20][20], int n);
+int main()
+{
+int n;					//No. of nodes
+int a[20][20];			//Cost adjacency matrix
+int i, j;				//Index variables
+
+//1. Read no. of nodes
+printf("Enter n: ");
+scanf("%d", &n);
+
+//2. Read cost adjacency matrix
+printf("Enter Cost matrix: \n");
+for(i=1; i<=n; i++)
+    for(j=1; j<=n; j++)
+        scanf("%d", &a[i][j]);
+
+//3. Call function
+warshall(a, n);
+
+//4. Print result
+printf("\n\nTransitive Closure: \n");
+for(i=1; i<=n; i++)
+{
+    for(j=1; j<=n; j++)
+        printf("%5d", a[i][j]);
+    printf("\n\n");
+}
+
+return 0;
+}
+
+void warshall(int a[20][20],int n)
+{
+int i, j, k;
+
+for(k=1; k<=n; k++)
+for(i=1; i<=n; i++)
+for(j=1; j<=n; j++)
+    a[i][j] = a[i][j] || (a[i][k] && a[k][j]);
+}
+
+                    
+                    </pre>
+                </div>
+
+                <div class="tab-content" id="output">
+                    <h3>Output</h3>
+                    <pre id="warshal" class="code-container-hidden">
+Run1:
+Enter the number of vertices : 4
+Enter the adjacency matrix
+0 1 0 0
+0 0 1 0
+1 0 0 1
+0 0 0 0
+
+The resultant Path matrix is
+1 1 1 1
+1 1 1 1
+1 1 1 1
+0 0 0 0
+
+                    </pre>
+                </div>
+                <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                </div>
+            </div>
+
+
+        
+        <!-- Algorithm Detail Pages (Hidden by default) -->
+        <div id="algorithm-detail" style="display: block;">
+            <!-- Merge Sort -->
+            <div id="merge" class="algorithm-detail-page">
+                <h2>Merge Sort</h2>
+                
+                <div class="tabs">
+                    <button class="tab active" data-tab="description">Description</button>
+                    <button class="tab" data-tab="implementation">Implementation</button>
+                    <button class="tab" data-tab="output">Output</button>
+                </div>
+                
+                <div class="tab-content active" id="description">
+                    <p>Merge Sort is a divide and conquer algorithm that was invented by John von Neumann in 1945. It works as follows:</p>
+                    <ol>
+                        <li>Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).</li>
+                        <li>Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.</li>
+                    </ol>
+                    <p>Merge Sort is stable, meaning that the equal elements maintain their relative positions in the sorted output.</p>
+                </div>
+                
+                <div class="tab-content" id="implementation">
+                    <h3>C Implementation</h3>
+                    <pre id="merge" class="code-container-hidden">
+                        #include< stdio.h >
+                        #include< time.h >
+                        
+                        #define MAX 100000   		
+                
+                        void mergesort(long int a[MAX], long int low, long int high);
+                        void merge    (long int a[MAX], long int low, long int mid, long int high);
+                        
+                        int main()
+                        {
+                            long int n;				//No. of elements	
+                            long int a[MAX];		//Array to store elements
+                            long int i;				//Index variable
+                            clock_t start, end;		//Variables to store time
+                        
+                            
+                            printf("Enter n: ");
+                            scanf("%ld", &n);		         
+                        
+    
+                            printf("Enter elements: ");	
+                            for(i=0; i < n; i++)
+                                 a[i] = rand();	  	// or scanf("%ld",&a[i]);
+                            start = clock();
+                            mergesort(a, 0, n-1);
+                            end = clock();   
+                            printf("Sorted elements: \n");	
+                            for(i=0; i < n ; i++)
+                                printf(" %ld\n ", a[i]);
+                            printf("\nTime : %.20lf\n", ((double)end - start) / CLOCKS_PER_SEC);
+                            return 0;
+                        }
+                        
+                        void mergesort(long int a[MAX], long int low, long int high)
+                        {
+                            long int mid;
+                            if(low < high) 
+                            {
+                                mid = (low + high)/2;
+                                mergesort(a, low, mid);	   
+                                mergesort(a, mid+1, high); 
+                                merge(a, low, mid, high);  
+                            }
+                        }
+                        
+                        void merge(long int a[MAX], long int low, long int mid, long int high)
+                        {
+                            long int i, j, k, b[MAX];
+                            i = low;		
+                            j = mid + 1;	
+                            k = low;		
+                            while( (i <= mid) && (j <= high))
+                            {
+                                if(a[i] < a[j])
+                                    b[k++] = a[i++];
+                                else
+                                    b[k++] = a[j++];		
+                            }
+                            while(i <= mid)
+                                b[k++] = a[i++];
+                            while(j <= high)
+                                b[k++] = a[j++];                            
+                            for(i = low; i <= high; i++)
+                                a[i] = b[i];
+                        } 
+                    </pre>
+                </div>
+
+                <div class="tab-content" id="output">
+                    <h3>Output</h3>
+                    <pre id="merge" class="code-container-hidden">
+                        n 		         Time
+                        10000	        0.006
+                        20000           0.010
+                        30000           0.014
+                        40000           0.021
+                        50000           0.026
+                        60000           0.031 
+                        70000           0.035
+                        80000           0.040
+                        90000           0.045
+                        100000          0.050
+                    </pre>
+                </div>
+                <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                </div>
+            </div>
+        
+            <div id="algorithm-detail" style="display: block;">
+                <!-- floyds-->
+                <div id="floyds" class="algorithm-detail-page">
+                    <h2>Floyds Algorithm</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p>Floyd's Algorithm (Floyd-Warshall Algorithm) is used to find the shortest paths between all pairs of vertices in a weighted graph, including negative weights (but no negative cycles).</p>             
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+                        <pre id="floyds" class="code-container-hidden">
+
+#include< stdio.h >
+
+void floyd(int n, int a[10][10]);   
+
+//Global variables
+int i, j, k;
+int n, a[10][10], source;
+
+int main()
+{
+    //Read n
+	printf("Enter the no.of nodes: ");
+	scanf("%d", &n);
+
+       //Read adj. matrix
+	printf("\nEnter the adjacency matrix\n");
+	for(i=1; i<=n; i++)
+		for(j=1; j<=n; j++)
+			scanf("%d", &a[i][j]);
+	
+    floyd(n, a);
+
+	printf("\n\nThe distance matrix is \n");
+	for(i=1; i<=n; i++)
+	{
+		for(j=1; j<=n; j++)
+	           printf("%5d", a[i][j]);
+           
+	       printf("\n\n"); 
+	}
+}
+
+//Floyds without parallel
+void floyd(int n, int a[10][10])
+{
+     
+	 for(k=1; k<=n; k++)
+	 for(i=1; i<=n; i++)
+	 for(j=1; j<=n; j++)
+         a[i][j] = min(a[i][j], a[i][k] + a[k][j]);	
+}
+int min(int a, int b)
+{
+	if(a < b)
+           return a;
+	else 
+           return b;
+}
+
+                        <pre id="floyds" class="code-container-hidden">
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="floyds" class="code-container-hidden">
+Run 1:
+Enter the no.of nodes: 5
+
+Enter the adjacency matrix
+0 4 999 5 999
+999 0 1 999 6
+2 999 0 3 999
+999 999 1 0 2
+1 999 999 4 0
+
+
+The distance matrix is
+    0    4    5    5    7
+
+    3    0    1    4    6
+
+    2    6    0    3    5
+
+    3    7    1    0    2
+
+    1    5    5    4    0
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+
+
+
+                
+            <div id="algorithm-detail" style="display: block;">
+                <!-- quick-->
+                <div id="quick" class="algorithm-detail-page">
+                    <h2>Quick Sort</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p>Quick Sort is a divide-and-conquer sorting algorithm that selects a pivot, partitions the array into two subarrays (elements less than and greater than the pivot), and recursively sorts them.
+
+</p>             
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+
+                        <pre id="quick" class="code-container-hidden">
+#include < stdio.h >
+#include < stdlib.h >
+#include < time.h >
+
+#define MAX 100000       //one lakh
+
+//Function declarations
+void quicksort    (long int a[MAX], long int low, long int high);
+long int partition(long int a[MAX], long int low, long int high);
+
+int main()
+{
+	long int n;				//No. of elements	
+	long int a[MAX];			//Array to store elements
+	long int i;				//Index variable
+	clock_t start, end;			//Variables to store time
+
+	//1. Read no. of elements	
+	printf("Enter n: ");
+	scanf("%ld", &n);
+
+	//2. Read elements
+	//use rand() to generate large no. of elements
+	printf("Enter elements: ");	
+	for(i=0; i< n; i++)	
+        scanf("%ld", &a[i]);  //a[i] = rand(); 
+
+	//3. Read clock, before and after quicksort() function call	
+    start = clock();
+	quicksort(a, 0, n-1);
+	end = clock();
+
+	//4. Print sorted array and Time taken for sorting (in seconds)
+	printf("Sorted elements: \n");	
+	for(i=0; i< n; i++)
+		printf("%ld\n", a[i]);
+
+	printf("\nTime : %.20lf\n", ((double)end - start) / CLOCKS_PER_SEC);
+
+	return 0;
+}
+void quicksort(long int a[MAX], long int low, long int high)
+{
+	long int j;
+
+	if(low < high)  //If there are more than one element in the array
+	{
+		//Place one element in its correct position in sorted array
+		j = partition(a, low, high);		
+
+		quicksort(a, low, j-1);	//Sort left subarray
+		quicksort(a, j+1, high);	//Sort right subarray
+	}
+}
+
+
+long int partition(long int a[MAX], long int low, long int high)
+{
+	long int i, j, key, temp;
+	
+	i   = low + 1;			//Initialize lower index i
+	j   = high;				//Initialize higher index j
+	key = a[low];				//Make first element as key
+
+	while(1)
+	{
+		//Find correct position of of key 
+		while ((key >= a[i]) && i < high)
+			i++;
+
+		while(key < a[j])
+			j--;
+
+		//If correct position not found swap a[i] and a[j]
+		if(i < j) 				
+		{
+			temp = a[i]; 
+			a[i] = a[j];
+		    a[j] = temp;
+		}
+		else	//If correct position found swap key and a[j]
+		{
+			temp = a[low];
+			a[low] = a[j];
+			a[j] = temp;
+
+			return j;
+		} //end if
+	} //end while
+} //end function
+
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="quick" class="code-container-hidden">
+Record time taken for different values for n.
+
+n (no. of elements)	 Time (in seconds )
+1	                        100	
+2	                        1000	
+3	                        5000	
+4	                        10000	
+5	                        20000	
+6	                        40000	
+7	                        50000	
+8	                        70000	
+9	                        80000	
+10	                        90000	
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+
+                
+            <div id="algorithm-detail" style="display: block;">
+                <!-- prims-->
+                <div id="prims" class="algorithm-detail-page">
+                    <h2>Prim's Algorithm</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p> Prim's algorithm is a Greedy algorithm like Kruskal's algorithm. This algorithm always starts with a single node and moves through several adjacent nodes, in order to explore all of the connected edges along the way.
+
+                            The algorithm starts with an empty spanning tree.
+                            The idea is to maintain two sets of vertices. The first set contains the vertices already included in the MST, and the other set contains the vertices not yet included.
+                            At every step, it considers all the edges that connect the two sets and picks the minimum weight edge from these edges.
+                            After picking the edge, it moves the other endpoint of the edge to the set containing MST. </p>             
+                          
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+
+                        <pre id="prims" class="code-container-hidden">
+#include< stdio.h >
+
+#define INFINITY 999
+
+void prims(int n, int cost[10][10], int source);
+
+int main()
+{
+   int n; 			//no. of nodes
+   int cost[10][10];//Adjacency matrix of graph
+   int source;	 	//source node
+   int i, j;		//index variables
+    
+    //1. Read no. of nodes
+    printf("Enter n (no. of nodes): ");
+    scanf("%d", &n);
+    
+    //2. Read cost adjacency matrix
+    printf("Enter cost matrix:\n ");
+    for(i=1; i<=n; i++)
+        for(j=1; j<=n; j++)
+            scanf("%d", &cost[i][j]);
+    
+    //3. Read source
+    printf("Enter Source: ");
+    scanf("%d", &source);
+    
+    //4. Call prims function
+    prims(n, cost, source);
+
+    return 0;    
+}
+
+
+void prims(int n,int cost[10][10],int source)
+{
+     int v[10];	//visited. keeps track to nodes visited and not
+     int d[10];	//distance. keeps latest shortest distance from source
+     int i, j;	//index variables
+     int vertex[10]; //keeps track of nearest node to spanning tree
+
+     int u, least, sum=0;
+     
+     //1. Initialisation
+     for(i=1;i<=n;i++)
+     {
+         v[i] = 0;                   //visited array 
+         d[i] = cost[source][i];     //distance array
+         vertex[i] = source;         //nearest node to spanning tree
+     }
+     
+     v[source] = 1;                   //mark source node as visited         
+     
+     //2. n iteration
+     for(i=1;i< n;i++)
+     {
+         least = INFINITY;
+         //2a) Find u and d(u) such that d(u) is least 
+         for(j=1; j<=n; j++) 
+         {
+             if(v[j] == 0 && d[j] < least)
+             {
+                 least = d[j];
+                 u = j;               
+             }
+         }           
+         
+         //2b) mark node u as visited
+         v[u] = 1;   					
+         sum += d[u];
+         printf("%d --> %d = %d    Sum = %d\n\n", vertex[u], u, d[u], sum);
+         
+         //2c) update d[] array. Explore paths through node u.
+         for(j=1;j<=n;j++)
+         {
+              if(v[j] == 0 && cost[u][j] < d[j])
+              {
+                      d[j] = cost[u][j];
+                      vertex[j] = u;
+              }
+         }//end for inner
+     }//end for outer     
+     
+     //3. Print total sum 
+     printf("Total cost: %d",sum);
+}//end prims
+}
+
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="prims" class="code-container-hidden">
+Output1: 
+         
+Enter n (no. of nodes): 4
+Enter cost matrix:
+Enter n (no. of nodes): 4
+Enter cost matrix:
+  0 20 10 50
+20 0 60 999
+10 60 0 40
+50 999 40 0
+Enter Source: 1
+1 --> 3 = 10    Sum = 10
+
+1 --> 2 = 20    Sum = 30
+
+3 --> 4 = 40    Sum = 70
+
+Total cost: 70
+  
+---------------------------------------------  
+Output2: 
+         
+Enter n (no. of nodes): 5
+Enter cost matrix:
+  0  11  9 7  8
+11  0  15  14  13
+9 15  0  12  14
+7  14  12  0  6
+8  13  14  6  0
+Enter Source: 1
+1 --> 4 = 7    Sum = 7
+
+4 --> 5 = 6    Sum = 13
+
+1 --> 3 = 9    Sum = 22
+
+1 --> 2 = 11    Sum = 33
+
+Total cost: 33
+
+
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+                
+            <div id="algorithm-detail" style="display: block;">
+                <!-- n-queens-->
+                <div id="n-queens" class="algorithm-detail-page">
+                    <h2>N Queens</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p> The N-Queen problem is a classic puzzle where the goal is to place N queens on an N×N chessboard such that no two queens threaten each other.
+                             This means that no two queens can share the same row, column, or diagonal.</p>             
+                        <p>
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+
+                        <pre id="n-queens" class="code-container-hidden">
+#include < stdio.h >
+
+//Function declarations
+void nqueens (int n); 
+int can_place(int c[10], int r);
+void display (int c[10], int r);     
+
+//Global variable
+int count = 0;
+
+int main()
+{
+    int n;
+    
+    //1. Read no. of queens
+    printf("Enter n (no of queens): ");
+    scanf("%d", &n);
+    
+    //2. Call function if solution exist
+    if(n == 2 || n == 3)
+        printf("Solution doesnot exist.");
+    else
+    {
+        nqueens(n); 
+		printf("Total no. of solutions: %d \n", count);
+    }
+
+    return 0;    
+}
+
+void nqueens(int n)
+{
+    int r;			//Contains row no.
+    int c[10];		//Stores queens positions in each row
+    int i;
+     
+    r = 0;			//Select first queen (place queen in first row)
+    c[r] = -1;		//Initial position of queen
+     
+    while(r >= 0)		//As long as there are solutions
+    {
+        c[r]++;         	//Place queen in r th coloumn         
+
+        //verify there is no attack from any of the previous queens placed         
+        while(c[r] < n && !can_place(c,r))  
+            c[r]++;        
+             
+        if(c[r] < n)
+        {
+	        //if all n queens placed sucessfully, then dislpay result
+		    if(r == n-1)    
+            {
+                 printf("Solution %d: ", ++count);
+                 for(i=0; i< n; i++)                
+                     printf(" %4d ", c[i] + 1); 
+                                  
+                 display(c,n);     
+             }    
+             else  	 	
+             {
+                 r++;
+                 c[r] = -1;   
+             }                
+         }
+         else
+             r--;          
+
+     } 
+}
+
+int can_place(int c[10], int r)
+{
+    int i;
+    
+
+    for(i=0; i< r; i++) 
+    {									
+        if( (c[i] == c[r]) || (abs(i-r) == abs(c[i] - c[r])) )         
+            return 0;
+    }   
+    return 1;
+}
+
+
+void display(int c[10],int n)
+{
+     char cb[10][10];
+     int i, j;
+     
+     for(i=0; i< n; i++)           
+         for(j=0; j < n; j++)    
+             cb[i][j] = '-';                     
+
+     for(i=0; i< n; i++)     
+         cb[i][c[i]] = 'Q';
+
+     
+     printf(" \n\nChessboard: \n" );
+     for(i=0; i< n; i++)           
+     {       
+         for(j=0; j < n; j++)    
+             printf(" %4c ", cb[i][j]);         
+
+         printf( " \n\n " );
+     }
+}
+
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="n-queens" class="code-container-hidden">
+Run 1:
+Enter n (no of queens): 4
+Solution 1:    2   4   1   3
+
+Chessboard:
+   -   Q   -   -
+
+   -   -   -   Q
+
+   Q   -   -   -
+
+   -   -   Q   -
+
+Solution 2:    3   1   4   2
+
+Chessboard:
+   -   -   Q   -
+
+   Q   -   -   -
+
+   -   -   -   Q
+
+   -   Q   -   -
+
+Total no. of solutions: 2
+
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+
+
+
+
+            <div id="algorithm-detail" style="display: block;">
+                <!-- subset-->
+                <div id="selection" class="algorithm-detail-page">
+                    <h2>Selection Sort</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p> Selection Sort is a comparison-based sorting algorithm. It sorts an array by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element.
+                             This process continues until the entire array is sorted.</p>
+
+                             <p> First we find the smallest element and swap it with the first element. This way we get the smallest element at its correct position.
+                            Then we find the smallest among remaining elements (or second smallest) and swap it with the second element.
+                            We keep doing this until we get all elements moved to correct position.
+                            </p>             
+                        <p>
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+
+                        <pre id="selection" class="code-container-hidden">
+#include < stdio.h >
+#include < stdlib.h >
+#include < time.h >
+
+#define MAX 100000       	//one lakh
+
+//Function declarations
+void selectionsort(long int n, long int a[MAX]);
+
+int main()
+{
+	long int n;				//No. of elements	
+	long int a[MAX];		//Array to store elements
+	long int i;				//Index variable
+	clock_t start, end;		//Variables to store time
+
+	//1. Read no. of elements	
+	printf("Enter n: ");
+	scanf("%ld", &n);
+
+	//2. Read elements
+	//use rand() to generate large no. of elements
+	printf("Enter elements: ");	
+	for(i=0; i< n; i++)	
+        scanf(" %ld " , &a[i]);  
+		
+		
+	
+	selectionsort(n, a);
+	end = clock();
+
+	
+	printf(" Sorted elements: \n");	
+	for(i=0; i< n; i++)
+		printf(" %ld\ n", a[i]);
+
+	printf(" \nTime : %.20lf\n" , ((double)end - start) / CLOCKS_PER_SEC);
+
+	return 0;
+}
+
+
+void selectionsort(long int n, long int a[MAX])
+{
+	long int i, j;
+	long int min, min_index, temp;	
+
+	for(i = 0; i < n-1; i++){
+		min = a[i];
+		min_index = i;
+		for(j = i+1; j < n; j++) {
+			if(a[j] < min) {
+				min = a[j];
+				min_index = j;
+			}
+		}		
+		
+		
+		temp = a[i]; 
+		a[i] = min; 
+		a[min_index] = temp;
+		
+	} 		
+}		
+
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="seletion" class="code-container-hidden">
+Run 1:
+Enter n: 5
+Enter elements: 3
+8
+2
+5
+0
+Sorted elements:
+0
+2
+3
+5
+8
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+
+
+
+
+
+            <div id="algorithm-detail" style="display: block;">
+                <!-- kanpsack -->
+                <div id="knapsack" class="algorithm-detail-page">
+                    <h2>Knapsack</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p> A knapsack means a bag. It is used for solving knapsack problems. </p>
+                            This problem is solved by using a dynamic programming approach. In this problem, the items are either completely filled or no items are filled in a knapsack. 1 means items are completely filled or 0 means no item in the bag. 
+                        <p>For example, we have two items having weights of 12kg and 13kg, respectively. If we pick the 12kg item then we cannot pick the 10kg item from the 12kg item (because the item is not divisible);
+                             we have to pick the 12kg item completely. </p>
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+                        <pre id="knapsack" class="code-container-hidden">
+                            #include <stdio.h>
+
+                                #define MAX 150
+                                
+                                //Function declarations
+                                int knap(int n,int m);
+                                int big(int a,int b);
+                                
+                                //Global variables
+                                int w[MAX];	 	//Array to store weights of each item
+                                int p[MAX];		//Array to store profits of each item
+                                int v[MAX][MAX];	//Optimal solution of 'i' items with 'j' capacity
+                                
+                                int main()
+                                {
+                                    int n;		//n - no. of items
+                                    int m;		// m - max. knapsack capacity
+                                    int i, j;	//index variables
+                                    int profit;	//Stores result (optimal solution)
+                                
+                                
+                                    //1. Read no. of items
+                                    printf("\n Enter n (no. of items): ");
+                                    scanf("%d", &n);
+                                
+                                    //2. Read maximum knapsack capacity
+                                    printf("\n Enter the knapsack capacity:");
+                                    scanf("%d", &m);
+                                
+                                    //3. Read weights and profits of n items
+                                    printf("\n enter the weights and profits :\n");
+                                    for(i=1; i<=n; i++)
+                                       {
+                                        printf("w[%d] = ", i);
+                                           scanf("%d", &w[i]);
+                                        
+                                        printf("p[%d] = ", i);
+                                            scanf("%d", &p[i]);
+                                    }
+                                
+                                    //4. Initialise first coloumn elements to zero
+                                    for(i=0; i<=n; i++)
+                                        v[i][0] = 0;
+                                
+                                    //5. Initialise first row elements to zero
+                                    for(j=0; j<=m; j++)
+                                        v[0][j] = 0;
+                                
+                                    //6. Call function 
+                                    profit = knap(n, m);
+                                
+                                    for (i=0; i<=n; i++)
+                                        for (j=0; j <=m; j++)
+                                            printf("%4d",v[][]);
+                                
+                                    //7. Print result
+                                    printf("\n goal = %d\n\n", profit);
+                                
+                                    return 0;
+                                }
+                                
+                                
+                                int knap(int n,int m)
+                                {
+                                    int i, j;
+                                
+                                    /* if i th item can't be included to knapsack	
+                                        v(i,j) = without including i th item
+                                       else	
+                                        v(i,j) = max ( without including i th item, 
+                                                       with including i th item)	
+                                    */
+                                    for(i = 1; i <= n; i++)
+                                    for(j = 1; j <= m; j++)
+                                    {
+                                        if( (j - w[i]) < 0)			
+                                            v[i][j] = v[i-1][j];	 
+                                        else			
+                                            v[i][j] = big(v[i-1][j], p[i] + v[i-1][j-w[i]] );		
+                                    }
+                                
+                                    return v[n][m];         //return result  
+                                }
+                                
+                                int big(int a,int b)
+                                {
+                                    if (a > b) 
+                                        return a; 
+                                    else 
+                                        return b;
+                                }
+                                 
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="knapsack" class="code-container-hidden">
+Enter n (no. of items): 4
+
+ Enter the knapsack capacity:5
+
+ Enter the weights and profits :
+w[1] = 2
+p[1] = 12
+w[2] = 1
+p[2] = 10
+w[3] = 3
+p[3] = 20
+w[4] = 2
+p[4] = 15
+
+ goal = 37
+
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+    
+
+
+                
+            <div id="algorithm-detail" style="display: block;">
+                <!-- kruskal-->
+                <div id="kruskal" class="algorithm-detail-page">
+                    <h2>Kruskal Algorithm</h2>
+                    <div class="tabs">
+                        <button class="tab active" data-tab="description">Description</button>
+                        <button class="tab" data-tab="implementation">Implementation</button>
+                        <button class="tab" data-tab="output">Output</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <p> A minimum spanning tree (MST) or minimum weight spanning tree for a weighted, connected, and undirected graph is a spanning tree (no cycles and connects all vertices) that has minimum weight. 
+                            The weight of a spanning tree is the sum of all edges in the tree. </p> 
+
+                           <p> In Kruskal's algorithm, we sort all edges of the given graph in increasing order.
+                             Then it keeps on adding new edges and nodes in the MST if the newly added edge does not form a cycle. It picks the minimum weighted edge at first and the maximum weighted edge at last. Thus we can say that it makes a locally optimal choice in each step in order to find the optimal solution. Hence this is a Greedy Algorithm.</p>             
+                        <p>
+                    </div>
+                    
+                    <div class="tab-content" id="implementation">
+                        <h3>C Implementation</h3>
+                        <pre id="kruskal" class="code-container-hidden">
+#include< stdio.h >
+
+#define INFINITY 999
+#define MAX 10
+
+//Function declarations
+void kruskal(int n);
+int get_parent(int v);
+void sort_edges();
+void display();
+
+//Structure to represent edge
+struct EDGE
+{
+       int x, y, wt;       
+} e[MAX];
+
+int parent[MAX];
+int cost[MAX][MAX];  	//cost matrix
+int t[MAX][2];       	//Result: edges in spanning tree
+int nedges;   			//no. of edges
+int eno;      			//edge number (used as index in e[])
+
+
+int main()
+{
+	int i, j;		//Index variables
+	int n;			//no. of nodes
+
+	//1. Read no. of nodes
+	printf("\nEnter the no.of vertices: ");
+	scanf("%d", &n);
+
+	//2. Initialize each element of parent[] to zero
+	for(i=1; i<=n; i++)
+		parent[i] = 0;
+	
+	//3. Read cost matrix of graph and Identify edges and store in e[]
+	eno = 1;
+
+	printf("\nEnter the cost matrix: 0 = self loop & 999 = no edge\n");
+	for(i=1; i<=n; i++)
+	{
+		for(j=1;j<=n;j++)
+		{
+			scanf("%d",&cost[i][j]);
+			
+			if(i == j || cost[i][j] == INFINITY)
+				continue;
+            
+		     //add edge
+             e[eno].x = i; 
+	 		 e[eno].y = j; 
+			 e[eno].wt = cost[i][j];
+    		 eno++; 
+ 			 nedges++;
+       	} 
+	}   
+
+	//4. Sort the edges in e[]
+   	sort_edges();
+
+	//5. Call kruskals function
+   	kruskal(n);
+
+	return 0;
+}
+
+//Function to return top level parent of a given node v
+int get_parent(int v)
+{
+	while(parent[v])
+		v = parent[v];
+
+	return v;
+}
+
+//Function to obtain minimum cost spanning tree
+void kruskal(int n)
+{
+	int i, j, k, sum = 0;
+	int eno = 1;
+    struct EDGE nextedge;
+         
+    //a. Select n-1 edges to connect all nodes 
+	for(k = 1; k < n; )                            
+	{
+		//b. Get next edge
+		nextedge = e[eno++];		  	
+
+		//c. Find parents of i and j
+		i = get_parent( nextedge.x ); 
+		j = get_parent( nextedge.y );
+		
+		//d. If parents are different include the edge in spanning 
+		//tree else ignore the edge
+		if(i != j)			  
+		{				
+			parent[j] = nextedge.x;		//update parent[j] to x;
+
+			//e. Store the edge in t[][]
+			t[k][1] = nextedge.x;					      
+            t[k][2] = nextedge.y;
+
+			//f. Add the cost on edge to sum	
+			sum = sum + nextedge.wt;		
+			k++;			
+		}
+	}
+
+	//g. Display result
+	printf("\nCost of the spaning tree is: %d\n", sum);
+
+	printf("\nThe edges of the spanning tree are:\n");
+	for(i=1; i<n; i++)
+		printf("%d -> %d\n", t[i][1], t[i][2]);
+}
+
+
+//Function to sort(bubble sort) edges based on cost of edges
+void sort_edges()
+{
+     int i,j;
+     struct EDGE temp;
+     
+     for(i=1; i < nedges; i++)     
+       for(j=1; j < nedges-i; j++)
+          if(e[j].wt > e[j+1].wt)
+          {
+              temp = e[j]; e[j] = e[j+1]; e[j+1] = temp;
+          }
+}
+
+                        </pre>
+                    </div>
+    
+                    <div class="tab-content" id="output">
+                        <h3>Output</h3>
+                        <pre id="kruskal" class="code-container-hidden">
+Run1: 
+ enter the number of vertices:4
+
+ enter the cost adjacency matrix
+0 20 2 999
+20 0 15 5
+2 15 0 25
+999 5 25 0
+
+ cost of spanning tree is 22
+
+ edges of spanning tree are
+1->3
+2->4
+2->3
+
+Run 2:
+Enter the no.of vertices: 5
+
+Enter the cost adjacency matrix: 0 = self loop & 999 = no edge
+0 999 10 7 999
+999 0 999 32 999
+10 999 0 9 999
+7 32 9 0 23
+999 999 999 23 0
+
+Cost of the spaning tree is: 71
+
+The edges of the spanning tree are:
+1 -> 4
+3 -> 4
+4 -> 5
+2 -> 4
+                        </pre>
+                    </div>
+                    <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+                </div>
+
+
+            
+                <div id="algorithm-detail" style="display: block;">
+                    <!-- greedy-->
+                    <div id="greedy" class="algorithm-detail-page">
+                        <h2>Greedy Ordering</h2>
+                        <div class="tabs">
+                            <button class="tab active" data-tab="description">Description</button>
+                            <button class="tab" data-tab="implementation">Implementation</button>
+                            <button class="tab" data-tab="output">Output</button>
+                        </div>
+                        
+                        <div class="tab-content active" id="description">
+                            <p>The Greedy Knapsack algorithm, also known as the Fractional Knapsack, allows for items to be broken into fractions, selecting items with the highest value-to-weight ratio first. </p>
+                                <p>However, this approach may not provide the optimal solution for the 0/1 Knapsack problem. </p>             
+                            <p>
+                        </div>
+                        
+                        <div class="tab-content" id="implementation">
+                            <h3>C Implementation</h3>
+    
+                            <pre id="greedy" class="code-container-hidden">
+    #include < stdio.h >
+    
+    #define MAX 50
+    
+    double maxprofit;
+    int n, m, i, j;
+    
+    //Function declaration
+    void calculateRatio(int p[MAX], int w[MAX]);
+    void discreteKnapsack(int p[MAX], int w[MAX]);
+    void continuousKnapsack(int p[MAX], int w[MAX]);
+    
+    int main() 
+    {
+        int p[MAX], w[MAX], x[MAX];
+    
+    
+        printf("Enter the number of objects: ");
+           scanf("%d", &n);
+           
+        printf("Enter the objects' weights: ");
+        for (i = 0; i < n; i++) 
+            scanf("%d", &w[i]);
+        
+        printf("Enter the objects' profits: ");
+        for (i = 0; i < n; i++)
+            scanf("%d", &p[i]);
+        
+        printf("Enter the maximum capacity: ");
+        scanf("%d", &m);
+       
+           calculateRatio(p, w);
+            
+        discreteKnapsack(p, w);
+        
+        continuousKnapsack(p, w);
+        
+        return 0;
+    }
+       
+    void calculateRatio(int p[MAX], int w[MAX])
+    {
+        double ratio[MAX], temp;
+        
+        // Calculate the ratio of profit to weight for each item
+        for (i = 0; i < n; i++)
+            ratio[i] = (double)p[i] / w[i];
+        
+        // Sort items based on the ratio in non-increasing order
+        for (i = 0; i < n - 1; i++) 
+        {
+            for (j = i + 1; j < n; j++)
+            {
+                if (ratio[i] < ratio[j]) 
+                {
+                    temp = ratio[i];
+                    ratio[i] = ratio[j];
+                    ratio[j] = temp;
+                    
+                    temp = w[i];
+                    w[i] = w[j];
+                    w[j] = temp;
+                    
+                    temp = p[i];
+                    p[i] = p[j];
+                    p[j] = temp;
+               }
+            }
+        }
+        
+        printf("\n\nSorted by Ratio: \n");
+        printf("%10s %10s %10s %10s","Item No.","Weight", "Profit", "Ratio \n");
+        for (i = 0; i < n; i++)
+             printf("%10d %10d %10d %10.1f\n", i, w[i], p[i], ratio[i]);
+        
+    } //end function
+    
+    void discreteKnapsack(int p[MAX], int w[MAX])
+    {
+        int x[MAX];
+        int currentWeight = 0;
+        maxprofit = 0.0;
+        
+        for (i = 0; i < n; i++)
+            x[i] = 0;
+        
+        // Fill the knapsack with items
+        for (i = 0; i < n; i++) 
+        {
+            if (currentWeight + w[i] <= m) 
+            {
+                x[i] = 1;              	 // Item i is selected
+                currentWeight += w[i];
+                maxprofit += p[i];
+            } 
+        }
+        
+        printf("Optimal solution for Discrete Knapsack: %.1f\n", maxprofit);
+        printf("Solution vector: ");
+        for (i = 0; i < n; i++)
+            printf("%d\t", x[i]);
+            
+        printf("\n\n");
+    }
+    
+    
+    void continuousKnapsack(int p[MAX], int w[MAX])
+    {
+        double x[MAX]; 
+        double currentWeight = 0;	
+        maxprofit = 0.0;
+        
+        for (i = 0; i < n; i++)
+            x[i] = 0.0;
+            
+        // Fill the knapsack with items
+        for (i = 0; i < n; i++) 
+        {
+            if (currentWeight + w[i] <= m) 
+            {
+                x[i] = 1;              	 // Item i is selected
+                currentWeight += w[i];
+                maxprofit += p[i];
+            } 
+            else
+            {
+                // Fractional part of item i is selected
+                x[i] = (m - currentWeight) / (double)w[i];
+                maxprofit += x[i] * p[i];
+                break;
+            }
+        }
+        
+        printf("Optimal solution for Continuous Knapsack: %.1f\n", maxprofit);
+        printf("Solution vector: ");
+        for (i = 0; i < n; i++)
+            printf("%.2f\t", x[i]);
+    }
+    
+                            </pre>
+                        </div>
+        
+                        <div class="tab-content" id="output">
+                            <h3>Output</h3>
+                            <pre id="greedy" class="code-container-hidden">
+    Run 1:
+    Enter the number of objects: 5
+    Enter the objects' weights: 3 2 1 4 5
+    Enter the objects' profits: 25 20 15 40 50
+    Enter the maximum capacity: 6
+    
+    
+    Sorted by Ratio:
+      Item No.     Weight     Profit    Ratio
+             0          1         15       15.0
+             1          2         20       10.0
+             2          4         40       10.0
+             3          5         50       10.0
+             4          3         25        8.3
+    Optimal solution for Discrete Knapsack: 60.0
+    Solution vector: 1      1       0       0       1
+    
+    Optimal solution for Continuous Knapsack: 65.0
+    Solution vector: 1.00   1.00    0.75    0.00    0.00
+    
+    Run 2:
+    Enter the number of objects: 3
+    Enter the objects' weights: 18 15 10
+    Enter the objects' profits: 30 21 18
+    Enter the maximum capacity: 20
+    
+    
+    Sorted by Ratio:
+      Item No.     Weight     Profit    Ratio
+             0         10         18        1.8
+             1         18         30        1.7
+             2         15         21        1.4
+    Optimal solution for Discrete Knapsack: 18.0
+    Solution vector: 1      0       0
+    
+    Optimal solution for Continuous Knapsack: 34.7
+    Solution vector: 1.00   0.56    0.00
+    
+    Run 3:
+    Sorted by Ratio:
+      Item No.     Weight     Profit    Ratio
+             0          4         40       10.0
+             1          7         42        6.0
+             2          5         25        5.0
+             3          3         12        4.0
+    Optimal solution for Discrete Knapsack: 65.0
+    Solution vector: 1      0       1       0
+    
+    Optimal solution for Continuous Knapsack: 76.0
+    Solution vector: 1.00   0.86    0.00    0.00
+    
+                            </pre>
+                        </div>
+                        <a href="#" class="btn back-btn">Back to Algorithm List</a>
+                    </div>
+            </div>
+    </main>
+    
+    <!-- Replace the existing footer with this enhanced version -->
+<footer>
+    <div class="container footer-container">
+        <div class="footer-section">
+            <h4>About Department</h4>
+            <p>The Department of Computer Science and Business System was established in 2022 and has been at the forefront of computer science education and research.</p>
+            <p>Our mission is to cultivate innovative minds through quality education in computer science and business field, enabling students to meet the evolving technological challenges.</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="https://vtu.ac.in/pdf/2022_3to8/2csbssyll.pdf">Curriculum</a></li>
+                <li><a href="https://www.onlinegdb.com/online_c_compiler">Online Complier</a></li>                
+            </ul>
+        </div>
+        
+ 
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <address>
+                K.S.S.E.M,
+                Department of Computer Science & Business,
+                Mallasandra Off Kanakapura Road, Bengaluru - 109<br>
+                <strong>Website:</strong> <a href="https://kssem.edu.in/">kssem@edu.in</a><br>
+            </address>
+            <p>
+                
+                <strong>Email:</strong> <a href="mailto:kssem@edu.in">kssem@edu.in</a><br>
+                <strong>Office:</strong> 08884444408
+            </p>
+            
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <div class="container">
+            <p>ADA Lab Programs Repository &copy; 2025. All rights reserved.</p>
+            <p>Designed for Analysis & Design of Algorithms Lab course.</p>
+        </div>
+    </div>
+</footer>    
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
+<!--<link rel="stylesheet" href="pp.css">
+<script src="pp.js"></script>-->
