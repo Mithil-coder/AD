@@ -141,6 +141,15 @@ p {
    /* margin: -50px;*/
     
 }
+.dept-logo {
+    width: 130px;
+    height: 165px;    
+    object-fit: cover;
+    border-radius: 10%;
+    align-items: right;
+   /* margin: -50px;*/
+    
+}
 
 .header-text {
     flex-grow: 1;
