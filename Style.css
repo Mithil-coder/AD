@@ -54,11 +54,7 @@ header .container {
     z-index: 2;
 }
 
-.collegeName{
-    font-size: 200px;
-    font-weight:800;
 
-}
 
 .container {
     width: 90%;
@@ -161,7 +157,7 @@ p {
     flex-grow: 1;
 }
 
-.college-name {
+.collegeName {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 0.25rem;
