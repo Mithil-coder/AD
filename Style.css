@@ -136,6 +136,7 @@ p {
     width: 130px;
     height: 165px;    
     object-fit: cover;
+    border-radius: 10%;
     
    /* margin: -50px;*/
     
