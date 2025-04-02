@@ -54,6 +54,12 @@ header .container {
     z-index: 2;
 }
 
+.collegName{
+    font-size:80px;
+    font-weight:800;
+
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
