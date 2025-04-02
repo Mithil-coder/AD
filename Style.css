@@ -69,7 +69,7 @@ main.container {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 1rem;
     letter-spacing: -0.025em;
@@ -133,8 +133,8 @@ p {
 }
 
 .college-logo {
-    width: 100px;
-    height: 100px;    
+    width: 150px;
+    height: 170px;    
     object-fit: cover;
     
    /* margin: -50px;*/
