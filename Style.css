@@ -152,6 +152,18 @@ p {
     margin-bottom: 0.25rem;
     letter-spacing: 0.5px;
 }
+.home{
+     display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f1f5f9;
+    color: var(--dark-text);
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    margin-top: 2rem;
+    transition: var(--transition);
+    box-shadow: none;
+}
 
 header .container {
     position: relative;
