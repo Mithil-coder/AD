@@ -133,9 +133,9 @@ p {
 }
 
 .college-logo {
-    width: 200px;
+    width: 100px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 80%;
     object-fit: cover;
     
    /* margin: -50px;*/
