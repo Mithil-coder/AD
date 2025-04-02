@@ -157,12 +157,18 @@ p {
     flex-grow: 1;
 }
 
-.collegeName {
+.college-name {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 0.25rem;
     letter-spacing: 0.5px;
 }
+
+.collegeName{
+    font-size: 150px;
+    font-weight: 800;
+}
+
 .home{
      display: inline-flex;
     align-items: center;
