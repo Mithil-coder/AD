@@ -355,6 +355,25 @@ footer {
     border-radius: 2px;
 }
 
+.footer-section h5 {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-section h5::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+}
+
 .footer-section p, .footer-section address {
     color: #94a3b8;
     margin-bottom: 1rem;
